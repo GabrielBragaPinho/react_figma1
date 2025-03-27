@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .div1 {
+        background-color:rgb(26, 32, 32) ;
+        height: 663px;
+    }

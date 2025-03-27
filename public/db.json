@@ -1,0 +1,313 @@
+{
+  "products":{
+    "shoes":[
+      {
+      "id":1,
+      "name":"Nike Free Rn Red ",
+      "brand":"Nike",
+      "price": 4000,
+      "image":"https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "size":40,
+      "stock":6,
+      "addToCart":false
+    },
+    {
+      "id":2,
+      "name":"Fabric vans",
+      "brand":"vans",
+      "price": 1200,
+      "image":"https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "size":"38",
+      "stock":7,
+      "addToCart":false
+
+    },
+    {
+      "id":3,
+      "name":"Nike Air Force 1",
+      "brand":"Nike",
+      "price": 2000,
+      "image":"https://images.unsplash.com/photo-1613070120286-98b11cdb9ae2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmlrZSUyMGFpciUyMGZvcmNlJTIwMXxlbnwwfHwwfHx8MA%3D%3D",
+      "size":"42",
+      "stock":3,
+      "addToCart":false
+
+    },
+    {
+      "id":4,
+      "name":"Venom Air Force",
+      "brand":"Nike",
+      "price": 5000,
+      "image":"https://i.ebayimg.com/images/g/J9AAAOSwvCpiRPw5/s-l1600.jpg",
+      "size":"43",
+      "stock":14,
+      "addToCart":false
+
+    },
+    {
+      "id":5,
+      "name":"BRUTON ",
+      "brand":"Loafer",
+      "price": 2500,
+      "image":"https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(1000,1000)",
+      "size":"43",
+      "stock":30,
+      "addToCart":false
+
+    },
+    {
+      "id": 6,
+      "name": "Air Jordan",
+      "brand": "Jordan",
+      "price":  3500,
+      "image":"https://i.pinimg.com/564x/4b/15/10/4b1510bed58a44c60ed5fc240eb4ddbb.jpg",
+      "size": "36-47",
+      "stock":7,
+      "addToCart":false
+    },
+    {
+      "id": 7,
+      "name": "Nike Air Max Speed Speed Turf Throwback Orange ",
+      "brand": "Nike",
+      "price":  5000,
+      "image":"https://i.pinimg.com/564x/71/47/83/7147831db5a9bf8f7cf27168d1f8f7f4.jpg",
+      "size": "40",
+      "stock":9,
+      "addToCart":false
+    },
+    {
+      "id": 8,
+      "name": "Zatz Chunky Sneakers",
+      "brand": "Zatz",
+      "price":  7000,
+      "image":"https://i.pinimg.com/564x/f2/58/05/f2580568d95bfa827278c0e6c63d4d2b.jpg",
+      "size": "41",
+      "stock":5,
+      "addToCart":false
+    },
+    {
+      "id": 9,
+      "name": "Air Blade Althletic",
+      "brand": "airblade",
+      "price":  4000,
+      "image":"https://i.pinimg.com/564x/bf/76/97/bf7697c5ed1c1c4ae53a7fccccf23074.jpg",
+      "size": "42",
+      "stock":9,
+      "addToCart":false
+    },
+    {
+      "id": 10,
+      "name": "Nike Dunk Low Sp",
+      "brand": "Nike",
+      "price":  3500,
+      "image":"https://i.pinimg.com/564x/84/5b/38/845b38d9575c3612463b243e43acfab1.jpg",
+      "size": "42",
+      "stock":11,
+      "addToCart":false
+    }
+  ],
+  "shirts":[
+    {
+      "id":1,
+      "name":"GreyScale T-Shirt",
+      "brand":"Designer",
+      "price": 1500,
+      "image":"https://i.pinimg.com/564x/23/e6/e2/23e6e2214c50dc2a06e14f537662b433.jpg",
+      "size":"small",
+      "stock":19,
+      "addToCart":false
+
+    },{
+      "id": 2,
+      "name": "Victory Black T-Shirt",
+      "brand": "Victory",
+      "price":  1500,
+      "image":"https://i.pinimg.com/564x/d4/79/41/d479417ebca50f430392ae7ead8c6eeb.jpg",
+      "size": "XXXl",
+      "stock":13,
+      "addToCart":false
+    },{
+      "id": 3,
+      "name": "Mens Street Letter Smile Graphics 100% Cotton Short Sleeve T-Shirt",
+      "brand": "Smiles",
+      "price":  800,
+      "image":"https://i.pinimg.com/564x/2b/61/54/2b61542437c2df774c3ca664bd8f8418.jpg",
+      "size": "L",
+      "stock":56,
+      "addToCart":false
+    },{
+      "id": 4,
+      "name": "Paper Plane Of Libery Print Crew Neck Short Sleeve T-Shirt",
+      "brand": "Libery",
+      "price":  2000,
+      "image":"https://i.pinimg.com/564x/7e/d4/95/7ed495880da71820c4d69dc08cc50243.jpg",
+      "size": "XXL",
+      "stock":9,
+      "addToCart":false
+      
+      
+    },{
+      "id": 5,
+      "name": "Ethinsche Totem-Farbblock-PatchWork-Kurzarm-T-Shirt Fur Herren ",
+      "brand": "Fur Herren",
+      "price":  3000,
+      "image":"https://i.pinimg.com/564x/85/e2/b4/85e2b4230a58b44860df92927fd2c76e.jpg",
+      "size": "XL",
+      "stock":23,
+      "addToCart":false
+    },{
+      "id": 6,
+      "name": "Camisetas masculinas",
+      "brand": "Gola zombe",
+      "price":  1700,
+      "image":"https://i.pinimg.com/564x/b2/80/4f/b2804f2915a4c7e284aa05be5caecdad.jpg",
+      "size": "L",
+      "stock":8,
+      "addToCart":false
+    },{
+      "id": 7,
+      "name": "Japanese Retro Oversize T-shirt",
+      "brand": "Harajuku Kanji Top",
+      "price":  2500,
+      "image":"https://i.pinimg.com/564x/f4/77/2e/f4772e4f89c2b0b68b3445537f5a6401.jpg",
+      "size": "L",
+      "stock":6,
+      "addToCart":false
+    },{
+      "id": 8,
+      "name": "Beer Is Calling T-Shirt",
+      "brand": "Lt",
+      "price":  1200,
+      "image":"https://i.pinimg.com/564x/83/45/3a/83453af925e448777d29d7e2997004c2.jpg",
+      "size": "XXL",
+      "stock":9,
+      "addToCart":false
+    },{
+      "id": 9,
+      "name": "Album Ultraviolence Lyric Lana",
+      "brand": "Lana",
+      "price":  5000,
+      "image":"https://i.pinimg.com/564x/d9/8f/71/d98f710b703d8924934c5f97023baa7b.jpg",
+      "size": "M",
+      "stock":20,
+      "addToCart":false
+    },{
+      "id": 10,
+      "name": "Mens Sun Pattern Ethnic Style",
+      "brand": "Text Print",
+      "price":  2500,
+      "image":"https://i.pinimg.com/564x/bd/d0/04/bdd00462761c6d8b5f65e81296a34274.jpg",
+      "size": "M",
+      "stock":45,
+      "addToCart":false
+      
+
+    }
+   
+  ],
+  "trousers":[
+    {
+      "id": 1,
+      "name": " Loose Sport Running Stripe Sweatpants",
+      "brand": "sweatpants ke",
+      "price":  4009,
+      "image":"https://i.pinimg.com/564x/a6/b7/95/a6b7956fb488c1156594fe7a663d14e4.jpg",
+      "size": "xxxl",
+      "stock":60,
+      "addToCart":false
+    },
+    {
+      "id": 2,
+      "name": "Men's Cargo SweatPants Joggers Reflective Strip Muilt Pocket ",
+      "brand": "Drastring",
+      "price":  2700,
+      "image":"https://i.pinimg.com/564x/78/74/ff/7874ff234a9a35bcb67015d09acd7348.jpg",
+      "size": "L",
+      "stock":35,
+      "addToCart":false
+    },
+    {
+      "id": 3,
+      "name": "Hip-Hop Haren Pant",
+      "brand": "Joggers",
+      "price":  3500,
+      "image":"https://i.pinimg.com/564x/61/81/4d/61814d8ee50b8ea3d34d124418abe676.jpg",
+      "size": "M",
+      "stock":46,
+      "addToCart":false
+    },
+    {
+      "id": 4,
+      "name": "Chinos Chino Pants",
+      "brand": "Blend",
+      "price":  4000,
+      "image":"https://i.pinimg.com/564x/68/da/c1/68dac1e30672ae57f7011e61d5329353.jpg",
+      "size": "L",
+      "stock":8,
+      "addToCart":false
+    },
+    {
+      "id": 5,
+      "name": "Hip Hop Dragon Loose Trousers",
+      "brand": "Dragon pattern",
+      "price":  5000,
+      "image":"https://i.pinimg.com/564x/2c/d8/f5/2cd8f557ba212f287bd34ef791094e90.jpg",
+      "size": "M",
+      "stock":6,
+      "addToCart":false
+    },
+    {
+      "id": 6,
+      "name": "N/D men's Color Block Patched Skate Jeans Loose Casual Denim Trouser Straight Leg Frayed Patch Work Pants",
+      "brand": "N/D",
+      "price":  5000,
+      "image":"https://i.pinimg.com/564x/64/98/80/64988045438cdfe0ed22258ab372e509.jpg",
+      "size": "L",
+      "stock":1,
+      "addToCart":false
+    },
+    {
+      "id": 7,
+      "name": "Leif Nelson Men's Trousers Jogg Jeans Leisure ",
+      "brand": "Leif",
+      "price":  4000,
+      "image":"https://i.pinimg.com/564x/ef/40/16/ef4016f82f2e6707105381429fe2b70c.jpg",
+      "size": "L",
+      "stock":4,
+      "addToCart":false
+    },
+    {
+      "id": 8,
+      "name": "Cargo Pants Women Baggy High Waisted Black Gothic E Girl Pants",
+      "brand": "Trendy HipHop STYLE",
+      "price":  2000,
+      "image":"https://i.pinimg.com/564x/00/ab/f3/00abf3917c665b02ddf96ed1a52f7724.jpg",
+      "size": "M",
+      "stock":8,
+      "addToCart":false
+    },
+    {
+      "id": 9,
+      "name": "High Waist And Butt Lifting Jeans For Women",
+      "brand": "Levant Cola",
+      "price":  2500,
+      "image":"https://i.pinimg.com/564x/11/fb/e1/11fbe141ec266e699b66f70f4e0f4b2e.jpg",
+      "size": "L",
+      "stock":5,
+      "addToCart":false
+    },
+    {
+      "id": 10,
+      "name": "Flared Denim Trousers With Colored Fabric And Ragged Tears",
+      "brand": "fashion foward",
+      "price":  1200,
+      "image":"https://i.pinimg.com/564x/d3/23/d9/d323d93c7a2eff17fac0b35adf47e00c.jpg",
+      "size": "M",
+      "stock":8,
+      "addToCart":false
+    }
+  ]
+  
+      
+    }
+}
