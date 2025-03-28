@@ -1,9 +1,30 @@
 .container {
     display: flex;
     flex-direction: column;
-    }
+}
     
-    .div1 {
-        background-color:rgb(26, 32, 32) ;
-        height: 663px;
-    }
+.div1 {
+    background-color:rgb(26, 32, 32) ;
+    height: 663px;
+}
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: wrap;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.productCard {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    height: 340px;
+    background-color: aqua;
+}
+.productImage {
+    width: 298px;
+    height: 298px;
+    border-radius: 15px;
+}

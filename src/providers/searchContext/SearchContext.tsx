@@ -13,7 +13,7 @@ export const SearchProvider = ({ children } : {children: ReactNode}) => {
         product.name.toLowerCase().includes(query.toLowerCase()) ||
         product.brand.toLowerCase().includes(query.toLowerCase())
     );
-
+    
     return (
         <SearchContext.Provider value={{query, setQuery, setProducts, products, filteredProducts}}>
             {children}

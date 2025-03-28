@@ -108,7 +108,7 @@
   ],
   "shirts":[
     {
-      "id":1,
+      "id":11,
       "name":"GreyScale T-Shirt",
       "brand":"Designer",
       "price": 1500,
@@ -118,7 +118,7 @@
       "addToCart":false
 
     },{
-      "id": 2,
+      "id": 12,
       "name": "Victory Black T-Shirt",
       "brand": "Victory",
       "price":  1500,
@@ -127,7 +127,7 @@
       "stock":13,
       "addToCart":false
     },{
-      "id": 3,
+      "id": 13,
       "name": "Mens Street Letter Smile Graphics 100% Cotton Short Sleeve T-Shirt",
       "brand": "Smiles",
       "price":  800,
@@ -136,7 +136,7 @@
       "stock":56,
       "addToCart":false
     },{
-      "id": 4,
+      "id": 14,
       "name": "Paper Plane Of Libery Print Crew Neck Short Sleeve T-Shirt",
       "brand": "Libery",
       "price":  2000,
@@ -147,7 +147,7 @@
       
       
     },{
-      "id": 5,
+      "id": 15,
       "name": "Ethinsche Totem-Farbblock-PatchWork-Kurzarm-T-Shirt Fur Herren ",
       "brand": "Fur Herren",
       "price":  3000,
@@ -156,7 +156,7 @@
       "stock":23,
       "addToCart":false
     },{
-      "id": 6,
+      "id": 16,
       "name": "Camisetas masculinas",
       "brand": "Gola zombe",
       "price":  1700,
@@ -165,7 +165,7 @@
       "stock":8,
       "addToCart":false
     },{
-      "id": 7,
+      "id": 17,
       "name": "Japanese Retro Oversize T-shirt",
       "brand": "Harajuku Kanji Top",
       "price":  2500,
@@ -174,7 +174,7 @@
       "stock":6,
       "addToCart":false
     },{
-      "id": 8,
+      "id": 18,
       "name": "Beer Is Calling T-Shirt",
       "brand": "Lt",
       "price":  1200,
@@ -183,7 +183,7 @@
       "stock":9,
       "addToCart":false
     },{
-      "id": 9,
+      "id": 19,
       "name": "Album Ultraviolence Lyric Lana",
       "brand": "Lana",
       "price":  5000,
@@ -192,7 +192,7 @@
       "stock":20,
       "addToCart":false
     },{
-      "id": 10,
+      "id": 20,
       "name": "Mens Sun Pattern Ethnic Style",
       "brand": "Text Print",
       "price":  2500,
@@ -207,7 +207,7 @@
   ],
   "trousers":[
     {
-      "id": 1,
+      "id": 21,
       "name": " Loose Sport Running Stripe Sweatpants",
       "brand": "sweatpants ke",
       "price":  4009,
@@ -217,7 +217,7 @@
       "addToCart":false
     },
     {
-      "id": 2,
+      "id": 22,
       "name": "Men's Cargo SweatPants Joggers Reflective Strip Muilt Pocket ",
       "brand": "Drastring",
       "price":  2700,
@@ -227,7 +227,7 @@
       "addToCart":false
     },
     {
-      "id": 3,
+      "id": 23,
       "name": "Hip-Hop Haren Pant",
       "brand": "Joggers",
       "price":  3500,
@@ -237,7 +237,7 @@
       "addToCart":false
     },
     {
-      "id": 4,
+      "id": 24,
       "name": "Chinos Chino Pants",
       "brand": "Blend",
       "price":  4000,
@@ -247,7 +247,7 @@
       "addToCart":false
     },
     {
-      "id": 5,
+      "id": 25,
       "name": "Hip Hop Dragon Loose Trousers",
       "brand": "Dragon pattern",
       "price":  5000,
@@ -257,7 +257,7 @@
       "addToCart":false
     },
     {
-      "id": 6,
+      "id": 26,
       "name": "N/D men's Color Block Patched Skate Jeans Loose Casual Denim Trouser Straight Leg Frayed Patch Work Pants",
       "brand": "N/D",
       "price":  5000,
@@ -267,7 +267,7 @@
       "addToCart":false
     },
     {
-      "id": 7,
+      "id": 27,
       "name": "Leif Nelson Men's Trousers Jogg Jeans Leisure ",
       "brand": "Leif",
       "price":  4000,
@@ -277,7 +277,7 @@
       "addToCart":false
     },
     {
-      "id": 8,
+      "id": 28,
       "name": "Cargo Pants Women Baggy High Waisted Black Gothic E Girl Pants",
       "brand": "Trendy HipHop STYLE",
       "price":  2000,
@@ -287,7 +287,7 @@
       "addToCart":false
     },
     {
-      "id": 9,
+      "id": 29,
       "name": "High Waist And Butt Lifting Jeans For Women",
       "brand": "Levant Cola",
       "price":  2500,
@@ -297,7 +297,7 @@
       "addToCart":false
     },
     {
-      "id": 10,
+      "id": 30,
       "name": "Flared Denim Trousers With Colored Fabric And Ragged Tears",
       "brand": "fashion foward",
       "price":  1200,

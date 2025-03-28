@@ -14,16 +14,12 @@ function App() {
 
   useEffect(() => {
     fetch("../public/db.json") 
-      .then((response) => response.json())
-      .then((data: { products: { shoes: Product[]; shirts: Product[]; trousers: Product[] } }) => {
-        const allProducts = [
-          ...data.products.shoes,
-          ...data.products.shirts,
-          ...data.products.trousers,
-        ];
-        setProducts(allProducts);
-      })
-      .catch((error) => console.error("Error loading products:", error));
+    .then((response) => response.json())
+    .then((data: { products: Record<string, Product[]> }) => {
+      const allProducts = Object.values(data.products).flat();
+      setProducts(allProducts);
+    })
+    .catch((error) => console.error("Error loading products:", error));
   }, [setProducts]);
 
 

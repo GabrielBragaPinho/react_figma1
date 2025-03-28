@@ -1,23 +1,24 @@
-// import { Link } from "react-router-dom";
 import { useContext, useState } from 'react';
-import './index.css';
-import { SearchContext } from '../../providers/searchContext/SearchContext';
 import { useNavigate } from 'react-router-dom';
+
+import './index.css';
+import mglass from "../../assets/mglas.png"
+import { SearchContext } from '../../providers/searchContext/SearchContext';
 
 
 export const Header = () => {
-const { query, setQuery } = useContext(SearchContext)
-const [, setSearching] = useState<boolean>(false);
-const navigate = useNavigate();
+    const { query, setQuery } = useContext(SearchContext)
+    const [, setSearching] = useState<boolean>(false);
+    const navigate = useNavigate();
 
-const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setQuery(event.target.value);
+    const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setQuery(event.target.value);
     };
 
     const handleKeyPress = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.key === "Enter") {
-        initiateSearch()
-    };
+            initiateSearch()
+        };
     };
 
     const handleSearchClick = () => {
@@ -29,19 +30,26 @@ const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         navigate("/search")
     }
 
+    const handleHomeButton = () => {
+        navigate("/")
+    }
+
     return (
         <div className='containerHeader'>
             <div className="discount">
                 Sign up and get 20% off your first order. Sign Up Now.
             </div>
             <div className="header">
-                SHOP.CO
-                <div className='menu'>
-                    <button>Shop</button>
-                    <button>On Sale</button>
-                    <button>New Arrivals</button>
-                    <button>Brands</button>
-                    <div className="search-container">
+                <h1 onClick={handleHomeButton}>
+                    SHOP.CO
+                </h1>
+                    <div className='menuContainer'>
+                        <button>Shop</button>
+                        <button>On Sale</button>
+                        <button>New Arrivals</button>
+                        <button>Brands</button>
+                    </div>
+                    <div className="searchContainer">
                         <input
                             type="text"
                             placeholder="Search products..."
@@ -49,9 +57,8 @@ const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
                             onChange={handleSearchChange}
                             onKeyDown={handleKeyPress}
                         />
-                     <button onClick={handleSearchClick} className="search-icon">pesquisar</button>
+                        <img src= {mglass} onClick={handleSearchClick} className='mglass'/>
                      </div>
-                </div>
             </div>
         </div>
     );

@@ -7,25 +7,28 @@
     font-size: 14px;
     font-weight: 200;
 };
-
 .containerHeader {
     display: flex;
 }
 .header {
     color: rgb(0, 0, 0);
-    font-weight: 900;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 32px;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 90% ;
     height: 48px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     gap: 30px;
     align-items: center;
+}
+h1{
+    font-weight: 900;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 32px;
+    cursor: pointer;
 }
 button {
     all: unset;
@@ -33,11 +36,36 @@ button {
     background: none;
     font-family: satoshi;
     font-size: 16px;
-    font-weight: 200
+    font-weight: 200;
+    cursor: pointer;
 }
-.menu {
+.mglass {
+    cursor: pointer;
+    object-fit: cover;
+    height: 25px;
+    position: absolute;
+    left: 86%;
+    top: 10px;
+}
+input {
+    height: 40px;
+    background-color:rgba(0,0,0,0);
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 2px solid #acacac;
+    margin: 0px;
+    width: 100%;
+    color: #7a7a7a;
+}
+.searchContainer {
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+}
+.menuContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    min-width: 300px;
+    width: 30%;
 }

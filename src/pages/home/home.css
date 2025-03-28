@@ -1,0 +1,94 @@
+.c1 {
+display: flex;
+flex-direction: column;
+}
+.c2 {
+    height: 663px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+}
+.c2-c1 {
+    max-width: 596px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.c2-c1 h2 {
+    max-width: 596px;
+    font-size: 64px;
+    color: black;
+    margin: 0px;
+    margin-top: 30px;
+}
+.c2-c1 p {
+    color: black;
+    font-size: 16px;
+}
+.c2-c1 button {
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.c2-c2 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.c2-c2 img{
+    width: 100%;
+    max-width: 596px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 15px;
+    object-position: top;
+}
+.c2-c1-c3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.c2-c1-c3-c4 {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+}
+.c2-c1-c3-c4 h3 {
+    color: black;
+    font-size: 40px;
+    margin: 0px;
+} 
+.c2-c1-c3-c4 p {
+    font-size: 16px;
+    height: 22px;
+    margin: 0px;
+}
+.c2-c1_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+.c3 {
+    background-color: black;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
