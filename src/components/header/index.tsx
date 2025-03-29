@@ -50,7 +50,7 @@ export const Header = () => {
                         <button>Brands</button>
                     </div>
                     <div className="searchContainer">
-                        <input
+                        <input className='header-input'
                             type="text"
                             placeholder="Search products..."
                             value={query}

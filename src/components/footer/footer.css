@@ -1,5 +1,36 @@
-.c1 {
-    color: black;
+.footer-c1 {
     height: 589px;
-    background-color: blue;
+}
+.footer-c2 {
+    width: 100%;
+    background-color: black;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-c2-c1 {
+    width: 349px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-input {
+    background-color: rgb(255, 255, 255);
+    height: 46px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    color: #b14646;
+
+}  ::placeholder {
+    color: #696969;
+}
+.footer-button {
+    background-color: rgb(255, 255, 255);
+    height: 46px;
+    border-radius: 30px;
+    padding-left: 20px;
+    color: #000000;
+    border: none;
 }
