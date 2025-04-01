@@ -2,27 +2,25 @@ import { Header } from "../../components/header";
 import './index.css'
 import { SearchContext } from "../../providers/searchContext/SearchContext";
 import { useContext } from "react";
-
+import { Footer } from "../../components/footer";
 
 export const Search = () => {
  const { filteredProducts, query } = useContext(SearchContext)
 
 
-
-
     return (
-        <div className="container">
+        <div className="search-c1">
             <Header />
-            <div className="searchContainer">
+            <div className="search-c2">
                 {query.trim() === ""? (
-                    <p>Search for products</p>
+                    <h2 className="search-h2">Search for products</h2>
                 ) : filteredProducts.length > 0 ? (
                     filteredProducts.map((product) => (
-                        <div key={product.id} className="productCard">
-                            <img src={product.image} alt={product.name} className="productImage"/>
-                            <h3>{product.name}</h3>
+                        <div key={product.id} className="product-card">
+                            <img src={product.image} alt={product.name} className="product-img"/>
+                            <h3 className="product-name">{product.name}</h3>
                             <p>Brand: {product.brand}</p>
-                            <p>Price: ${product.price}</p>
+                            <p className="product-price">Price: ${product.price}</p>
                         </div>
                     ))
                 ) : (
@@ -30,6 +28,7 @@ export const Search = () => {
                 )}
 
             </div>
+            <Footer />
         </div>
     )
 }

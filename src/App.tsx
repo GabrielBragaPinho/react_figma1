@@ -13,7 +13,7 @@ function App() {
   const { setProducts} = context;
 
   useEffect(() => {
-    fetch("../public/db.json") 
+    fetch("/db.json") 
     .then((response) => response.json())
     .then((data: { products: Record<string, Product[]> }) => {
       const allProducts = Object.values(data.products).flat();

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import mglass from "../../assets/mglas.png"
 import { SearchContext } from '../../providers/searchContext/SearchContext';
-
+import cart from "../../assets/cart.svg"
 
 export const Header = () => {
     const { query, setQuery } = useContext(SearchContext)
@@ -43,22 +43,25 @@ export const Header = () => {
                 <h1 onClick={handleHomeButton}>
                     SHOP.CO
                 </h1>
-                    <div className='menuContainer'>
-                        <button>Shop</button>
-                        <button>On Sale</button>
-                        <button>New Arrivals</button>
-                        <button>Brands</button>
-                    </div>
-                    <div className="searchContainer">
-                        <input className='header-input'
-                            type="text"
-                            placeholder="Search products..."
-                            value={query}
-                            onChange={handleSearchChange}
-                            onKeyDown={handleKeyPress}
-                        />
-                        <img src= {mglass} onClick={handleSearchClick} className='mglass'/>
-                     </div>
+                <div className='menuContainer'>
+                    <button>Shop</button>
+                    <button>On Sale</button>
+                    <button>New Arrivals</button>
+                    <button>Brands</button>
+                </div>
+                <div className="searchContainer">
+                    <input className='header-input'
+                        type="text"
+                        placeholder="Search products..."
+                        value={query}
+                        onChange={handleSearchChange}
+                        onKeyDown={handleKeyPress}
+                    />
+                    <img src= {mglass} onClick={handleSearchClick} className='mglass'/>
+                </div>
+                <div className='header-user'>
+                    <img src={cart} alt="" onClick={() => navigate("/cart")}/>
+                </div>
             </div>
         </div>
     );

@@ -1,13 +1,13 @@
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 import './home.css'
-import pin1 from"../../assets/pic1.jpg"
+import model from"../../assets/model.jpg"
 import versace from "../../assets/versace.svg"
 import zara from "../../assets/zara.svg"
 import gucci from "../../assets/gucci.svg"
 import prada from "../../assets/prada.svg"
 import cklein from "../../assets/cklein.svg"
-
+import { Products } from "../../components/products";
 
 export const Home = () => {
     return (
@@ -37,7 +37,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="c2-c2">
-                    <img src={pin1} />
+                    <img src={model} />
                 </div>
             </div>
             <div className="c3">
@@ -47,6 +47,7 @@ export const Home = () => {
                 <img src={prada} className="img2" />
                 <img src={cklein} className="img2" />
             </div>
+            <Products />
             <Footer />
         </div>
     )
