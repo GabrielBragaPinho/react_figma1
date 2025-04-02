@@ -15,6 +15,7 @@ export interface Product {
     size: number;
     stock: number;
     addToCart: boolean;
+    quantity: number
 }
 
 export const defaultContext: SearchContextType = {

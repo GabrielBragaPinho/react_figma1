@@ -1,0 +1,36 @@
+.user-c2 {
+    color: black;
+    width: 20%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #a3a3a3;
+   margin-left: 5%;
+}
+.user-btn {
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 16px;
+}
+.user-btn-2 {
+    color: rgb(0, 0, 0);
+    width: 210px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 30px;
+    font-size: 16px;
+}
+.user-cart {
+    font-weight: bold;
+}

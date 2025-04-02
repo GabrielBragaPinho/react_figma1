@@ -38,7 +38,10 @@ export const AuthProvider = ({children}: { children: ReactNode}) => {
     const login = (email: string, password: string) => {
         const savedUser = JSON.parse(localStorage.getItem("registeredUser") || "{}");
         if (savedUser.email === email && savedUser.password === password) {
-        setUser({name: savedUser.name, email});
+            const loggedInUser = { name: savedUser.name, email };
+
+        setUser(loggedInUser);
+        localStorage.setItem("user", JSON.stringify(loggedInUser));
         return true;
     } 
         alert("Invalid email or password.");

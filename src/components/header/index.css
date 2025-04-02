@@ -70,3 +70,9 @@ button {
     min-width: 300px;
     width: 30%;
 }
+.header-user {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 20px;
+}
